@@ -1,0 +1,5 @@
+.CartProductsContainer h2, table, h3{
+    margin: 20px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
