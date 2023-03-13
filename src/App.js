@@ -45,7 +45,7 @@ class App extends Component{
   }
 
   componentDidMount(){
-    axios.get("http://localhost:3003/products.json").then(res => {
+    axios.get("/products.json").then(res => {
       console.log("res", res);
       this.setState({products: res.data});
     }).catch(err => console.log(err))
